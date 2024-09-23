@@ -8,6 +8,7 @@
     <!-- Estilos de Bootstrap y Chart.js -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <style>
 .btn-primary {
@@ -31,8 +32,11 @@
 </style>
 <body>
     <!-- Contenido principal aquí -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-red">
-        <a class="navbar-brand" href="#">PREVENCRIME</a>
+    <nav id="navbar" class="fixed backdrop-blur-xl text-xs bg-red-800 top-0 left-0 right-0 h-16 flex items-center justify-between p-5">
+        <h1 class="flex items-center text-2xl font-bold text-white">PREVENCRIME
+            <img class="h-10 w-10 text-white" src="/images/pngwing.com.png" alt="1">
+        </h1>
+        <a href="/Herramientas/" class="p-1 cursor-pointer border-b-4 text-white">Volver</a>
     </nav>
     <div class="container mt-5">
         <h1 class="text-center">Predicción de Robos y Hurtos</h1>
